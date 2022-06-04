@@ -10,9 +10,8 @@
 
 <body>
     <?php
-    echo " ";
     $ip_address = getenv("REMOTE_ADDR");
-    echo $ip_address;
+    echo "your IP address is: " . $ip_address;
     ?>
 </body>
 
